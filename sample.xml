@@ -1,0 +1,114 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="ipnode-0" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" component_id="urn:publicid:IDN+geni.case.edu+node+pc2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18198" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39738" username="efgics"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39738" username="rxv6510"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39738" username="nxsvks"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39738" username="ss9979"/>
+      <emulab:console server="vhost2.shared-nodes.emulab-ops.geni.case.edu"/>
+    </services>
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18206" mac_address="02b40759ea76">
+      <ip address="10.10.1.2" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="pcvm2-6" hardware_type="pcvm"/>
+    <host name="ipnode-0.sample.ch-geni-net.geni.case.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-1" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" component_id="urn:publicid:IDN+geni.case.edu+node+pc2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18200" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39740" username="efgics"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39740" username="rxv6510"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39740" username="nxsvks"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39740" username="ss9979"/>
+      <emulab:console server="vhost2.shared-nodes.emulab-ops.geni.case.edu"/>
+    </services>
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18205" mac_address="02e07201e2a7">
+      <ip address="10.10.1.1" type="ipv4"/>
+    </interface>
+    <interface client_id="interface-3" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18209" mac_address="0270ead74fa8">
+      <ip address="10.10.2.2" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="pcvm2-15" hardware_type="pcvm"/>
+    <host name="node-1.sample.ch-geni-net.geni.case.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-2" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" component_id="urn:publicid:IDN+geni.case.edu+node+pc2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18201" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39741" username="efgics"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39741" username="rxv6510"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39741" username="nxsvks"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39741" username="ss9979"/>
+      <emulab:console server="vhost2.shared-nodes.emulab-ops.geni.case.edu"/>
+    </services>
+    <interface client_id="interface-2" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18208" mac_address="0253fb4ce2a4">
+      <ip address="10.10.2.1" type="ipv4"/>
+    </interface>
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18212" mac_address="025f0996c079">
+      <ip address="10.10.3.2" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="pcvm2-16" hardware_type="pcvm"/>
+    <host name="node-2.sample.ch-geni-net.geni.case.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" component_id="urn:publicid:IDN+geni.case.edu+node+pc2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18202" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39742" username="efgics"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39742" username="rxv6510"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39742" username="nxsvks"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39742" username="ss9979"/>
+      <emulab:console server="vhost2.shared-nodes.emulab-ops.geni.case.edu"/>
+    </services>
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18211" mac_address="02909c0c932f">
+      <ip address="10.10.3.1" type="ipv4"/>
+    </interface>
+    <interface client_id="interface-7" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18215" mac_address="026f3aabb6d4">
+      <ip address="10.10.4.2" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="pcvm2-20" hardware_type="pcvm"/>
+    <host name="node-3.sample.ch-geni-net.geni.case.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="ipnode-1" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" component_id="urn:publicid:IDN+geni.case.edu+node+pc2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18199" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39739" username="efgics"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39739" username="rxv6510"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39739" username="nxsvks"/>
+      <login authentication="ssh-keys" hostname="pc2.geni.case.edu" port="39739" username="ss9979"/>
+      <emulab:console server="vhost2.shared-nodes.emulab-ops.geni.case.edu"/>
+    </services>
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18214" mac_address="02929a1bbea0">
+      <ip address="10.10.4.1" type="ipv4"/>
+    </interface>
+    <emulab:vnode name="pcvm2-14" hardware_type="pcvm"/>
+    <host name="ipnode-1.sample.ch-geni-net.geni.case.edu"/>
+  </node>
+  <link client_id="link-0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18204">
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18205"/>
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18206"/>
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>
+  </link>
+  <link client_id="link-1" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18207">
+    <interface_ref client_id="interface-2" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18208"/>
+    <interface_ref client_id="interface-3" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18209"/>
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>
+  </link>
+  <link client_id="link-2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18210">
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18211"/>
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18212"/>
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>
+  </link>
+  <link client_id="link-3" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18213">
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18214"/>
+    <interface_ref client_id="interface-7" component_id="urn:publicid:IDN+geni.case.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+18215"/>
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>
+  </link>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="US" latitude="41.50588" longitude="-81.609169"/>
+  </rs:site_info>
+</rspec>
